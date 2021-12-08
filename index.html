@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>World-19</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="search">
+        <div class="icon"></div>
+        <div class="input">
+            <input type="search" value="" placeholder="Search country" id="mysearch" onchange="saveName()"> 
+        </div>
+        <span class="clear"></span>
+    </div>
+	<div class="info">
+		<p>New cases today: <span class="newcase"></span></p>
+		<p>New deaths today: <span class="newdeath"></span></p>
+		<p>New recovered today: <span class="newrecovered"></span></p>
+		<p>Active cases: <span class="activecases"></span></p>
+		<p>Total cases: <span class="totalcases"></span></p>
+		<p>In danger cases: <span class="indangercases"></span></p>
+		<p>Deaths: <span class="deathscases"></span></p>
+		<p>Recovered: <span class="recoveredcases"></span></p>
+	</div>
+
+    <script src="script.js"></script>
+	</body>
+	
+</html>
