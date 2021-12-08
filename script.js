@@ -8,7 +8,7 @@ function saveName(){
 				
 				document.querySelector(".newcase").innerHTML = data[i].todayCases
 				document.querySelector(".newdeath").innerHTML = data[i].todayDeaths
-				document.querySelector(".newrecovered").innerHTML = data[i].todayDeaths
+				document.querySelector(".newrecovered").innerHTML = data[i].todayRecovered
 				document.querySelector(".activecases").innerHTML = data[i].active
 				document.querySelector(".totalcases").innerHTML = data[i].cases
 				document.querySelector(".indangercases").innerHTML = data[i].critical
