@@ -5,7 +5,8 @@ function saveName(){
 
 		for(i=0; i<data.length; i++){
 			if(name === data[i].country){
-				document.querySelector(".newcase").innerHTML = data[i].todayCases
+				const string = "No data yet"
+				document.querySelector(".newcase").innerHTML = string
 				document.querySelector(".newdeath").innerHTML = data[i].todayDeaths
 				document.querySelector(".newrecovered").innerHTML = data[i].todayRecovered
 				document.querySelector(".activecases").innerHTML = data[i].active
